@@ -1,0 +1,152 @@
+
+<html>
+    <head> <title> Wireshark Checklist </title>
+    </head>
+    <body>
+    
+    <FONT FACE="Cambria" SIZE=1>
+    2.1
+    <br>
+    Updates:
+    <ol>
+    <li> none
+    </ol>
+    
+    
+    <FONT FACE="Cambria" SIZE=4>
+    <center> <h2> WireShark Checklist </h2> </center> <p>
+    
+    <br> 
+    
+    Change "No" to "Yes" as you complete the tasks. Submit to D2L when complete:<p>
+    
+    <table border=1 width="50%" >
+    
+    <tr><td align="Left"><b> <FONT FACE="Cambria" SIZE=5>Task
+    </font></b></td>
+    <td align="Left"><b><FONT FACE="Cambria" SIZE=5> Complete? </task> 
+    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    My name is...
+    </b></td><td align="left"><b>
+    Vatsal Parikh                  </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have installed and run WireShark
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the Intro lab</b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the IP lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the DNS lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the HTTP lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the TCP lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the UDP lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have completed the SSL lab
+    </b></td><td align="left"><b>
+    Yes                    </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I have inserted my one-page write-up into the bottom of the checklist.
+    </b></td><td align="left"><b>
+    Yes          </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I will have submitted this checklist to D2L
+    </b></td><td align="left"><b>
+    Yes          </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    Bragging Rights Below ---------------------
+    </b></td><td align="left"><b>
+    This Line          </b></td></tr>
+    
+    <tr> <td align="left"><b>
+    I did something cool and posted it at the discussion forum
+    </b></td><td align="left"><b>
+    No          </b></td></tr>
+    
+    </table>
+    
+    <h3> My One Page Writeup: </h3>
+    
+    <pre>
+    Lab-1:
+    I haven't worked with WireShark before so I was little confused during installation but the lab instructions are very 
+    clear. After installation I followed the steps and I was able to filter out the http protocol requests. After clicking on
+    the get request of http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html I was able to get some information 
+    and also its packet content.</pre>
+    
+    <pre>
+    Lab-2:
+    Firstly I'm running a windows machine so I downloaded pingplotter. I was very confused at first because in the free version 
+    there is no option for changing the size of datagram packet. I changed to premium version which is free for 1 week but still
+    there is no option for number of times to trace. After understanding how pingplotter works I entered target ip as 
+    http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html and sent datagrams for different sizes. Wireshark was running
+    in the background and I captured the packets. Then I searched for ICMP protocol which had ECHO REQUEST. Then I noticed fragmentation
+    in datagram size of 2000. Also there is also ICMP TTL-exceeded in the info column shwoing the number of hops a datagram packet can 
+    take. I couldn't change the number of times to trace but this way I was able to capture more data.
+    </pre>
+
+    <pre>
+    Lab-3:
+    I worked with nslookup and ipconfig first, followed the steps, everything worket fine. I have worked with both before but the 
+    arguments added were new to me so I tried all of them out. Then I followed the steps for tracing DNS with Wireshark, located
+    the DNS query and response and looked at answers returned. The only pecular thing I noticed is for some DNS servers during DNS 
+    lookup in the command line when provided the DNS server and host both, it didn't work. 
+    </pre>
+
+    <pre>
+    Lab-4:
+    First, I started with basic HTTP get/response interaction. It was a simple HTML file request/response. Then I learned about
+    conditional get/response. In browser with the help of cache certain html pages are stored. According to me it can be noticed
+    from WireShark that it stores response in some frame and when host requests the same get request, it is refering to the same frame.
+    Retrieving long documents was pretty much the same but due to size limit the reponse is divided into more than one reponse. Then 
+    I wroked with HTML having embedded objects(image in this case). The images are supposed to be retrieved from different webpages. 
+    I noticed that cover image was coming from different ip address but the pearson image was retrieved from the server ip address 
+    and that was little weird. Then I came across HTTP Authentication. It includes Authentication from the user and thus require 
+    two get/response requests. 
+    </pre>
+    
+    <pre>
+    Lab-5:
+    This lab is centered around only one example that is tracing bulk TCP transfer. At first I was confused by looking at all those TCP
+    requests. Later I understood it is just a whole sequence starting with the transfer having SYN message. I also toggled with HTML 
+    protocols to get a better understanding. The graph very interesting to me which showed the whole sequence. I was confused at first 
+    because my graph was very different then the one shown in lab document. Later I realized its because of internet speed and processing
+    power. I was able to complete the same task in 0.3 seconds instead of 5.5 seconds and was able to send long segments together. I also
+    went through one video to understand how the graph works.
+    </pre>
+
+    <pre>
+    Lab-6:
+    I looked over the UDP packets getting transfered without applying any filters. I followed all the questions and looked over packets.
+    Their size, their content and length. It was pretty basic I didn't do much here but overall experience of completing the whole lab was fun.
+    </pre>
+    </body></html>
+    

@@ -1,0 +1,73 @@
+##JokeServer##
+
+D:\Study\DS\Joke>java JokeServer secondary
+Vatsal Parikh's Joke Server is starting up, listening at port 4545.
+
+Vatsal Parikh's Joke Server 2 is starting up, listening at port 4546.
+
+Changed mode for 5050 to proverb
+Changed mode for 5051 to proverb
+
+##JokeClient##
+
+D:\Study\DS\Joke>java JokeClient localhost localhost
+Vatsal Parikh's Joke Client
+
+Server one: localhost, Port: 4545
+Server two: localhost, Port: 4546
+
+**(s) to change servers**
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: vatsal
+JA vatsal: A clean house is the sign of a broken computer.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: s
+Now communicating with: localhost, port 4546
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: vatsal
+<S2> JB vatsal: CAPS LOCK has been preventing login since 1980.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+<S2> PC vatsal: Computing is not about computers any more. It is about living.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+<S2> PB vatsal: The computer was born to solve problems that did not exist before.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+<S2> PD vatsal: Man is still the most extraordinary computer of all.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+<S2> PA vatsal: I do not fear computers. I fear lack of them.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+<S2>PROVERB CYCLE COMPLETED
+<S2> PC vatsal: Computing is not about computers any more. It is about living.
+
+##JokeClientAdmin##
+
+D:\Study\DS\Joke>java JokeClientAdmin localhost localhost
+Vatsal Parikh's Admin Client
+
+Server one: localhost, Port: 5050
+Server two: localhost, Port: 5051
+
+**(s) to change servers**
+
+Press enter to change modes
+
+Press enter to change modes
+s
+Now communicating with: localhost, port 5051
+
+Press enter to change modes
+
+Press enter to change modes
+

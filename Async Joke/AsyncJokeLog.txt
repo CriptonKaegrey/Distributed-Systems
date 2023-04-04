@@ -1,0 +1,70 @@
+##AsyncJokeServer##
+
+D:\Study\DS\Async Joke>java AsyncJokeServer secondary
+Vatsal Parikh's Async Joke Server is starting up, listening at port 4545.
+
+Vatsal Parikh's Async Joke Server 2 is starting up, listening at port 4546.
+
+Changed mode for 5050 to proverb
+Changed mode for 5051 to proverb
+
+##AsyncJokeClient##
+
+D:\Study\DS\Async Joke>java AsyncJokeClient localhost localhost
+Vatsal Parikh's Async Joke Client
+
+Server one: localhost, Port: 4545
+Server two: localhost, Port: 4546
+
+**(s) to change servers**
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: vatsal
+
+Enter numbers seperated by space to sum: 2 5
+Your sum is: 7
+
+Enter numbers seperated by space to sum: 4 6
+Your sum is: 10
+JA vatsal: A clean house is the sign of a broken computer.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: s
+Now communicating with: localhost, port 4546
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end: vatsal
+
+Enter numbers seperated by space to sum: 6 8
+Your sum is: 14
+
+Enter numbers seperated by space to sum: 1 3
+Your sum is: 4
+
+Enter numbers seperated by space to sum: 8 9
+Your sum is: 17
+<S2> PD vatsal: Man is still the most extraordinary computer of all.
+
+Enter your name or just press enter(if you are the previous user),
+(quit) to end:
+
+##AsyncJokeAdminClient##
+
+D:\Study\DS\Async Joke>java AsyncJokeAdminClient localhost localhost
+Vatsal Parikh's Admin Client
+
+Server one: localhost, Port: 5050
+Server two: localhost, Port: 5051
+
+**(s) to change servers**
+
+Press enter to change modes
+
+Press enter to change modes
+s
+Now communicating with: localhost, port 5051
+
+Press enter to change modes
+
+Press enter to change modes
+
